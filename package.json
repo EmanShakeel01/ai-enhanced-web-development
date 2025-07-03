@@ -1,14 +1,19 @@
 {
-<<<<<<< HEAD
   "name": "quote-generator",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
+  "description": "",
+  "main": "index.js",
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
     "@radix-ui/react-slot": "^1.2.3",
     "class-variance-authority": "^0.7.1",
@@ -23,28 +28,16 @@
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4.1.11",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "@types/tailwindcss": "^3.0.11",
-    "eslint": "^9",
+    "autoprefixer": "^10.4.21",
+    "eslint": "^9.30.0",
     "eslint-config-next": "15.3.4",
     "tw-animate-css": "^1.3.4",
     "typescript": "^5"
-=======
-  "name": "ai-enhanced-web-development",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "packageManager": "pnpm@10.12.4",
-  "devDependencies": {
-    "eslint": "^9.30.0"
->>>>>>> a68a71a6f2a29cd94ce994f818e9bcf43d483613
-  }
+  "packageManager": "pnpm@10.12.4"
 }
