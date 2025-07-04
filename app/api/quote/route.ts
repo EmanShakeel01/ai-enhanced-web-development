@@ -1,8 +1,8 @@
 export async function GET() {
   const quotes = [
-    { text: "Push yourself, because no one else is going to do it for you.", author: "Unknown" },
-    { text: "The best time to start was yesterday. The next best time is now.", author: "Unknown" },
-    { text: "Success doesn’t just find you. You have to go out and get it.", author: "Unknown" },
+    { text: "Push yourself, because no one else is going to do it for you" },
+    { text: "The best time to start was yesterday. The next best time is now."},
+    { text: "Success doesn’t just find you. You have to go out and get it." },
   ];
 
   const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
