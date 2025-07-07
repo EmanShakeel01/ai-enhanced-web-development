@@ -23,7 +23,7 @@ export default function Home() {
         <footer className="space-y-2">
           <div className="flex justify-center items-center space-x-2 text-sm text-navy-600 dark:text-blue-300">
             <span className="animate-pulse">🌊</span>
-            <p className="font-medium">Click "New Quote" for more wisdom</p>
+            <p className="font-medium">Click New Quote for more wisdom</p>
             <span className="animate-pulse">✨</span>
           </div>
           <div className="flex justify-center space-x-1">
